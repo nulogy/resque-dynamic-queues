@@ -23,8 +23,8 @@ Gem::Specification.new do |s|
   s.add_dependency("resque", '>= 1.27', '< 3')
 
   s.add_development_dependency('rake')
-  s.add_development_dependency('rspec', '~> 2.5')
-  s.add_development_dependency('rack-test', '~> 0.5.4')
+  s.add_development_dependency('rspec', '~> 3.9')
+  s.add_development_dependency('rack-test', '~> 1.0')
 
   # Needed for testing newer resque on ruby 1.8.7
   s.add_development_dependency('json')
